@@ -1,0 +1,22 @@
+@import "variables";
+@import "components/icons";
+@import "components/top-header";
+@import "components/leftpane";
+@import "components/rightpane";
+
+.admin-main {
+  .admin-main-leftpane {
+    margin: 0;
+    box-shadow: none;
+  }
+  .admin-main-rightpane {
+    min-height: calc(100vh - 128px);
+    margin: 0;
+  }
+}
+/*bugfix*/
+.show-on-small {
+  @media  {
+    
+  }
+}
